@@ -23,3 +23,8 @@ Once these libraries are installed, open the notebook and execute the code in or
 | Method | NDCG | NDCG@10 | MAP | MRT|
 |:------:|:----:|:-------:|:---:|:---:|
 |BM25 baseline|0.6047|0.5388|0.3354|140.6|
+|BM25-qe|waiting|0.5681|0.3849|420.8|
+|BM25-d2q|waiting|waiting|waiting|waiting|
+|BM25-qe+d2q|waiting|waiting|waiting|waiting|
+|CoordinateAscent|0.3710|0.3119|0.2679|193.2|
+|LambdaMART|0.3479|0.2816|0.2402|196.1|

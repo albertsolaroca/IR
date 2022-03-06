@@ -38,7 +38,7 @@ d2q=doc2query (index created from corpus expanded with doc2query)
 Below you can find the statistics of the indexes created from the corpus (msmarco document ranking dataset)
 and the one created by first expanding the corpus documents using doc2query:
 
-| Measure | Index | Index(with doc2query) |
+| Measure | Index | Index(doc2query) |
 |:-------:|:-----:|:----------------------|
 |  #docs  | 3213835 | 3213835 |
 | #terms  | 16168096 | 29718814 |

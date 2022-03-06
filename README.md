@@ -4,6 +4,8 @@ This is Group 14's repository for the Python code used to obtain the results fou
 
 ``
 pip install python-terrier
+pip install fastrank
+pip install lightgbm
 ``
 
-We were using version 0.8.0. Once this library is installed, open the notebook and execute the code in order to see the results obtained in the paper.
+Once these libraries are installed, open the notebook and execute the code in order to see the results obtained in the paper.

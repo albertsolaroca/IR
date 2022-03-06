@@ -29,7 +29,7 @@ d2q=doc2query (index created from corpus expanded with doc2query)
 |BM25-qe(Bo1)|0.6420|0.5681|0.3849|260.5|
 |BM25-qe(RM3|0.6483|0.5640|0.3951|420.8|
 |BM25-d2q|0.6398|0.5900|0.3652|206.1|
-|BM25-qe(Bo1)+d2q|waiting|waiting|waiting|301.6|
+|BM25-qe(Bo1)+d2q|0.6680|0.6095|0.4039|321.6|
 |BM25-qe(RM3)+d2q|0.6787|0.6151|0.4213|461.3|
 |CoordinateAscent|0.3710|0.3119|0.2679|193.2|
 |LambdaMART|0.3479|0.2816|0.2402|196.1|

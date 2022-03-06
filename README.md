@@ -14,4 +14,8 @@ pip install fastrank
 pip install lightgbm
 ``
 
+``
+pip install --upgrade git+https://github.com/terrierteam/pyterrier_doc2query.git
+``
+
 Once these libraries are installed, open the notebook and execute the code in order to see the results obtained in the paper.

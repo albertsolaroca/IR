@@ -4,9 +4,11 @@ This is Group 14's repository for the Python code used to obtain the results fou
 
 ``
 pip install python-terrier
-
+``
+``
 pip install fastrank
-
+``
+``
 pip install lightgbm
 ``
 

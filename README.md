@@ -33,3 +33,15 @@ d2q=doc2query (index created from corpus expanded with doc2query)
 |BM25-qe(RM3)+d2q|waiting|waiting|waiting|waiting|
 |CoordinateAscent|0.3710|0.3119|0.2679|193.2|
 |LambdaMART|0.3479|0.2816|0.2402|196.1|
+
+
+Below you can find the statistics of the indexes created from the corpus (msmarco document ranking dataset)
+and the one created by first expanding the corpus documents using doc2query:
+
+| Measure | Index | Index(with doc2query) |
+|:-------:|:-----:|:----------------------|
+|  #docs  | 3213835 | 3213835 |
+| #terms  | 16168096 | 29718814 |
+|#postings| 905088837 | 1074683429 |
+| #tokens | 2204592607 | 2916542609 |
+|build time| 98 min | 116 min |

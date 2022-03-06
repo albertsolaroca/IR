@@ -20,8 +20,8 @@ pip install --upgrade git+https://github.com/terrierteam/pyterrier_doc2query.git
 
 Once these libraries are installed,  the notebook can be used in order to obtain the results described in the paper. <br/>
 We present the results in the following table:<br/>
-qe=query expansion
-d2q=doc2query
+qe=query expansion<br/>
+d2q=doc2query (index created from corpus expanded with doc2query)
 
 | Method | NDCG | NDCG@10 | MAP | MRT|
 |:------:|:----:|:-------:|:---:|:---:|

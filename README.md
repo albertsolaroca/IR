@@ -18,8 +18,10 @@ pip install lightgbm
 pip install --upgrade git+https://github.com/terrierteam/pyterrier_doc2query.git
 ``
 
-Once these libraries are installed,  the notebook can be used in order to obtain the results described in the paper. 
+Once these libraries are installed,  the notebook can be used in order to obtain the results described in the paper. <br/>
 We present the results in the following table:
+qe=query expansion
+d2q=doc2query
 
 | Method | NDCG | NDCG@10 | MAP | MRT|
 |:------:|:----:|:-------:|:---:|:---:|

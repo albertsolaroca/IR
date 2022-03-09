@@ -31,8 +31,8 @@ d2q=doc2query (index created from corpus expanded with doc2query)
 |BM25-d2q|full|0.8773|0.6398|0.5900|0.3652|206.1|
 |BM25-qe(Bo1)+d2q|full|0.8756|0.6680|0.6095|0.4039|321.6|
 |BM25-qe(RM3)+d2q|full|0.8761|0.6787|0.6151|0.4213|461.3|
-|CoordinateAscent|re-rank|0.3710|0.3119|0.2679|193.2|
-|LambdaMART|re-rank|0.3479|0.2816|0.2402|196.1|
+|CoordinateAscent|re-rank|-|0.3710|0.3119|0.2679|193.2|
+|LambdaMART|re-rank|-|0.3479|0.2816|0.2402|196.1|
 
 
 Below you can find the statistics of the indexes created from the corpus (msmarco document ranking dataset)

@@ -23,14 +23,14 @@ We present our results for document ranking using msmarco in the following table
 qe=query expansion<br/>
 d2q=doc2query (index created from corpus expanded with doc2query)
 
-| Method | Type | NDCG | NDCG@10 | MAP | MRT|
-|:------:|:-----|:----:|:-------:|:---:|:---:|
-|BM25 baseline|full|0.6047|0.5388|0.3354|140.6|
-|BM25-qe(Bo1)|full|0.6420|0.5681|0.3849|260.5|
-|BM25-qe(RM3|full|0.6483|0.5640|0.3951|420.8|
-|BM25-d2q|full|0.6398|0.5900|0.3652|206.1|
-|BM25-qe(Bo1)+d2q|full|0.6680|0.6095|0.4039|321.6|
-|BM25-qe(RM3)+d2q|full|0.6787|0.6151|0.4213|461.3|
+| Method | Type | RR | NDCG | NDCG@10 | MAP | MRT|
+|:------:|:-----|:--:|:----:|:-------:|:---:|:---:|
+|BM25 baseline|full|0.8741|0.6047|0.5388|0.3354|140.6|
+|BM25-qe(Bo1)|full|0.8408|0.6420|0.5681|0.3849|260.5|
+|BM25-qe(RM3|full|0.8585|0.6483|0.5640|0.3951|420.8|
+|BM25-d2q|full|0.8773|0.6398|0.5900|0.3652|206.1|
+|BM25-qe(Bo1)+d2q|full|0.8756|0.6680|0.6095|0.4039|321.6|
+|BM25-qe(RM3)+d2q|full|0.8761|0.6787|0.6151|0.4213|461.3|
 |CoordinateAscent|re-rank|0.3710|0.3119|0.2679|193.2|
 |LambdaMART|re-rank|0.3479|0.2816|0.2402|196.1|
 
